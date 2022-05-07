@@ -8,7 +8,6 @@ pair[0]
 # Representing rational numbers
 # We want rational numbers to be in their lowest terms, hence we need a common divisor. In this case, there is a built in function called gcd (greatest common divisor), which finds the gcd between two numbers.
 from fractions import gcd
-import re
 
 # Constructor function ie. in the list form
 def rational(n, d):
